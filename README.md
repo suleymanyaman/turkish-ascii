@@ -6,7 +6,9 @@ The use of the module is very simple. Import the methods and pass the string or 
 Ex: 
 
 from turkish import capitalize
+
 capitalize("istanbul")
+
 'İstanbul'
 (As a return value in Python IDLE)
 
