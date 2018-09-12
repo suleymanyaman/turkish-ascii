@@ -5,22 +5,26 @@ The use of the module is very simple. Import the methods and pass the string or 
 
 Ex: 
 
-from turkish import capitalize
+>>>from turkish import capitalize
 
-capitalize("istanbul")
+>>>capitalize("istanbul")
 
 'İstanbul'
 (As a return value in Python IDLE)
 
-from turkish import capitalize
-print(capitalize("istanbul"))
+>>>from turkish import capitalize
+
+>>>print(capitalize("istanbul"))
 
 İstanbul
 
 
-from turkish import upper_caser
-string = "Lorem ipsum dolor sit amet, id sea nisl option oportere."
-upper_caser(string)
+>>>from turkish import upper_caser
+
+>>>string = "Lorem ipsum dolor sit amet, id sea nisl option oportere."
+
+>>>upper_caser(string)
+
 'LOREM İPSUM DOLOR SİT AMET, İD SEA NİSL OPTİON OPORTERE.'
 
 
