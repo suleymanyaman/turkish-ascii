@@ -14,18 +14,11 @@ def capitalize(string):
 
 
 def upper_caser(string):
+    holder = ""
     for char in string:
-        if char in lower_case:
-            capital = lower_case.index(char)
-            captalized_char = upper_case[capital]
-            print(captalized_char,end="")
+        index = lower_case.index(char)
+        holder = holder + upper_case[index]
 
-        elif char in punctuation:
-            print(char,end="")
-
-        else:
-            print(char,end="")
-
-
+    return holder
 
 
