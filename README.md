@@ -1,5 +1,5 @@
 # turkish-ascii
-A Python library that helps the Turkish users to capitalize the characters. Python's default .capitalize() and .upper_case() methods don't support some upper-case Turkish letters.
+A Python library that helps the Turkish users to capitalize the characters. Python's default .capitalize() and .upper_case() methods don't support some upper-case Turkish letters. The library was actually created as a by-product of youtube-mp3-bot, another project of mine as the desired songs didn't show up in the Youtube queries when you give a Turkish song as an input. 
 
 The use of the module is very simple. Import the methods and pass the string or string object that you want to format as argument. The methods give the output as a return value.
 
