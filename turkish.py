@@ -3,7 +3,7 @@
 from string import punctuation
 
 lower_case = "abcçdefgğhıijklmnoöpqrsştuüvwxyz"
-upper_case = "ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ"
+upper_case = "ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ "
 
 def capitalize(string):
 
@@ -16,9 +16,13 @@ def capitalize(string):
 def upper_caser(string):
     holder = ""
     for char in string:
-        index = lower_case.index(char)
-        holder = holder + upper_case[index]
+        if char in lower_case:
+            index = lower_case.index(char)
+            holder = holder + upper_case[index]
+        else:
+            holder = holder + char
 
     return holder
+
 
 
