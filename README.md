@@ -7,7 +7,7 @@ Ex:
 
 >>>from turkish import capitalize
 
->>capitalize("istanbul")
+>>>capitalize("istanbul")
 
 'İstanbul'
 (As a return value in Python IDLE)
